@@ -179,11 +179,24 @@ console.log(resultado)
 //EJERCICIO12 
 //Realizar un programa que pida un número y calcule su factorial. 
 // (Ejemplo de factorial: 5! Factorial de 5 es 5*4*3*2*1 )
-
+/* let numero= parseInt(prompt("ingrese un numero para saber su fatorial: "));
+let total = 1;
+for (i=1;i<=numero;i++){
+total=total*i;
+}
+console.log(total);
 
 //EJERCICIO 13
 //Realizar un programa que pida un número y diga todos sus divisores. 
 //(Se verifica que un número es divisor del otro cuando el resto de dividir por ese número es 0.)
+let numero =parseInt(prompt("Ingrese un numero"));
+let divisor =0;
+for (let i=1;i<=numero;i++){
+    divisor+=1;
+    if(numero%divisor===0){
+        console.log(divisor + "es divisor de : "+ numero);
+    }
+} */
 
 //EJERCICIO 14
 //Solicitar al usuario que ingrese un número y una cadena de caracteres. 
@@ -193,8 +206,12 @@ console.log(resultado)
 //L
 //A
 
-
-
+* let numero=parseInt(prompt("ingrese un numero "));
+let cadena =prompt("ingrese una cadena de caracteres");
+for (let i =0;i<numero;i++){
+    console.log(cadena.charAt(i));
+}
+*/
 
 //EJERCICIO 15
 //Solicitar al usuario que ingrese una lista de supermercado y al final mostrar todos los items separados por comas.
@@ -210,15 +227,20 @@ while (lista !==num){
 //EJERCICIO 16 
 //Solicitar al usuario que ingrese números. Finalizar cuando ingrese un número múltiplo de 3. 
 //Mostrar todos los números ingresados.
- let numero= parseInt(prompt("Ingrese numero"));
-let multiplodetres=(numero/3)=0;
-while(numero!==multiplodetres){
-    mumero = parseInt(prompt("Ingrese numero"));
-    i++
-}
- 
-console.log(mumero + "es multiplo");
 
+/* let numero=parseInt(prompt("ingrese un numero : "));
+while(numero%3!==0){
+    console.log(numero);
+    numero=parseInt(prompt("Ingrese un numero"));
+}
+ */
+/* let numero=0;
+
+do {
+    numero=parseInt(prompt("ingrese un numero : "));
+    console.log(numero);
+}while(numero%3!==0)
+ */
 
 
 
